@@ -5,6 +5,7 @@ nav {
   top: 0;
   left: 0;
   height: 80px;
+  box-shadow: 0 2px 15px 0px rgba(0, 0, 0, 0.178);
 }
 
 .nav-content {
@@ -44,4 +45,17 @@ nav {
   border: none;
   outline: none;
   border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #fff;
+}
+
+.last-nav-link button:hover {
+  color: black;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.link:hover {
+  scale: 0.9;
 }

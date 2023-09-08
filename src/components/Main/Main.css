@@ -25,27 +25,30 @@ main h1 {
   align-items: center;
   gap: 4.5rem;
 }
-.buttons a {
-  text-decoration: none;
+
+.buttons button {
+  padding: 0.8rem 5rem;
   font-size: 24px;
 }
 
 .buttons button {
-  padding: 0.8rem 5rem;
   border-radius: 10px;
 }
+
 .left-btn {
   background-color: #fff;
-}
-
-.left-btn a {
-  color: #000;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .right-btn {
+  color: #fff;
   background-color: #000;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 
-.right-btn a {
-  color: #fff;
+.right-btn:hover {
+  color: #000;
+  background-color: #fff;
 }

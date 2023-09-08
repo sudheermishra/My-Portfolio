@@ -3,9 +3,9 @@ import "./About.css";
 function About() {
   return (
     <section className='about'>
-      <h1>About</h1>
+      <h2>About</h2>
       <hr />
-      <div className='text-content'>
+      <div className='about-text'>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
           interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed
