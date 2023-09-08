@@ -15,12 +15,13 @@ function Main() {
           </p>
         </div>
         <div className='buttons'>
-          <button className='left-btn'>
-            <a href=''>Projects</a>
-          </button>
-          <button className='right-btn'>
-            <a href=''>Contact</a>
-          </button>
+          <a href=''>
+            <button className='left-btn'>Projects </button>
+          </a>
+
+          <a href=''>
+            <button className='right-btn'>Contact</button>
+          </a>
         </div>
       </div>
     </main>
