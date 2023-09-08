@@ -1,13 +1,14 @@
 nav {
-  background-color: #00000015;
-  padding: 1.5rem 0;
+  background-color: #ffffff;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99%;
+  height: 80px;
 }
+
 .nav-content {
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;

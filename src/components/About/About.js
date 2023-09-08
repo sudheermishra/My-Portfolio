@@ -2,10 +2,10 @@ import "./About.css";
 
 function About() {
   return (
-    <section className="about">
+    <section className='about'>
       <h1>About</h1>
       <hr />
-      <div className="text-content">
+      <div className='text-content'>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
           interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed
@@ -13,11 +13,23 @@ function About() {
           malesuada
         </p>
       </div>
-      <div className="tech-stack">
-        <p>TECHSTACK</p>
-        <p>TECHSTACK</p>
-        <p>TECHSTACK</p>
-        <p>TECHSTACK</p>
+      <div className='tech-stack'>
+        <p>
+          TECH <br />
+          STACK
+        </p>
+        <p>
+          TECH <br />
+          STACK
+        </p>
+        <p>
+          TECH <br />
+          STACK
+        </p>
+        <p>
+          TECH <br />
+          STACK
+        </p>
       </div>
     </section>
   );
