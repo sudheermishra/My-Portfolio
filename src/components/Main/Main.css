@@ -1,0 +1,51 @@
+main {
+  margin-top: 200px;
+  text-align: center;
+  max-width: 800px;
+  margin: 200px auto;
+}
+
+hr {
+  max-width: 270px;
+  margin: 40px auto;
+}
+main h1 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.text-content p {
+  margin: 2rem auto;
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5rem;
+}
+.buttons a {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.buttons button {
+  padding: 0.8rem 5rem;
+  border-radius: 10px;
+}
+.left-btn {
+  background-color: #fff;
+}
+
+.left-btn a {
+  color: #000;
+}
+
+.right-btn {
+  background-color: #000;
+}
+
+.right-btn a {
+  color: #fff;
+}
