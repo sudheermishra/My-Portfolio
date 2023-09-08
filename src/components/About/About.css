@@ -20,5 +20,13 @@ div h1 {
 }
 .tech-stack {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.tech-stack p {
+  font-size: 12px;
   font-weight: 400;
 }
