@@ -1,0 +1,19 @@
+footer {
+  margin-top: -20px;
+  text-align: center;
+}
+
+.footer-group {
+  max-width: 1140px;
+  height: 381px;
+  margin: 50px auto;
+}
+
+span {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0px 20px;
+}
