@@ -4,7 +4,9 @@ function Header() {
     <header>
       <nav>
         <div className='nav-content container'>
-          <h2 className='logo'>Name</h2>
+          <div>
+            <h2 className='logo'>Name</h2>
+          </div>
 
           <ul className='nav-links'>
             <li className='nav-link link'>
