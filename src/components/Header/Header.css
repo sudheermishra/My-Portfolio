@@ -6,6 +6,7 @@ nav {
   left: 0;
   height: 80px;
   box-shadow: 0 2px 15px 0px rgba(0, 0, 0, 0.178);
+  padding: 0 20px;
 }
 
 .nav-content {
@@ -22,6 +23,7 @@ nav {
 .nav-links {
   display: flex;
   align-items: center;
+  gap: 3rem;
 }
 .nav-link {
   list-style: none;
@@ -35,6 +37,7 @@ nav {
 
 .last-nav-link {
   color: #fff;
+  margin-left: 4rem;
 }
 
 .last-nav-link button {

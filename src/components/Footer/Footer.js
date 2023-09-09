@@ -3,11 +3,11 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer>
-      <div className="footer-group">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+      <div className='footer-group'>
+        <span className='circle'></span>
+        <span className='circle'></span>
+        <span className='circle'></span>
+        <span className='circle'></span>
       </div>
     </footer>
   );

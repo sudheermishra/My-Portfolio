@@ -5,12 +5,7 @@
   margin: 200px auto;
 }
 
-hr {
-  max-width: 270px;
-  margin: 40px auto;
-}
-
-div h2 {
+.about h2 {
   font-size: 36px;
   font-weight: 400;
 }

@@ -13,4 +13,10 @@
 
 body {
   font-family: "Inter", sans-serif;
+  padding: 20px;
+}
+
+hr {
+  max-width: 270px;
+  margin: 40px auto;
 }
