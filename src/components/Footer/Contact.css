@@ -1,0 +1,145 @@
+.contact {
+  margin-top: 200px;
+  max-width: 1140px;
+  height: 381px;
+  margin: 200px auto;
+  text-align: right;
+}
+
+.contact-header {
+  text-align: center;
+}
+hr {
+  max-width: 270px;
+  margin: 40px auto;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 43.56px auto;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-form {
+  max-width: 534px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.left-form input {
+  width: 520px;
+  height: 42px;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  border: 1px solid #5e5e5e;
+}
+
+.right-form textarea {
+  width: 520px;
+  height: 125px;
+  resize: none;
+  border: none;
+  border: 1px solid #5e5e5e;
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+}
+.right-form textarea::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0.6rem 0.6rem;
+}
+label {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: -15px;
+}
+
+.submit-btn {
+  color: #fff;
+  background-color: #000;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  padding: 0.5rem 3.5rem;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.submit-btn:hover {
+  color: black;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+/* label {
+  font-weight: 600px;
+  font-size: 18px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form-group-name-email {
+  margin-right: 50%;
+  flex-basis: 45%;
+}
+
+.form-group input {
+  width: 534.5px;
+  height: 42px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: -10px;
+}
+
+.form-group-message {
+  flex-basis: 45%;
+}
+
+.form-group textarea {
+  width: 519.5px;
+  height: 125px;
+  resize: none;
+  border-radius: 10px;
+}
+
+.form-group-message textarea::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0.6rem 0.6rem;
+}
+
+.submit-btn {
+  display: block;
+  color: #fff;
+  background-color: #000;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  padding: 0.5rem 3.5rem;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 10px;
+} */
