@@ -1,11 +1,11 @@
-import "./About.css";
+import styles from "./About.module.css";
 
 function About() {
   return (
-    <section className='about'>
+    <section className={styles.about} id='about'>
       <h2>About</h2>
       <hr />
-      <div className='about-text'>
+      <div className={styles["about-text"]}>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
           interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed
@@ -13,7 +13,7 @@ function About() {
           malesuada
         </p>
       </div>
-      <div className='tech-stack'>
+      <div className={styles["tech-stack"]}>
         <p>
           TECH <br />
           STACK

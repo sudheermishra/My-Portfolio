@@ -5,16 +5,12 @@ main {
   margin: 200px auto;
 }
 
-hr {
-  max-width: 270px;
-  margin: 40px auto;
-}
 main h1 {
   font-size: 48px;
   font-weight: 400;
 }
 
-.text-content p {
+main p {
   margin: 2rem auto;
   font-size: 18px;
 }
