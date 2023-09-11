@@ -1,12 +1,12 @@
 import React from "react";
-import "./Main.css";
+import styles from "./Main.module.css";
 function Main() {
   return (
     <main>
-      <div className='header'>
+      <div>
         <h1>Developer Name</h1>
         <hr />
-        <div className='text-content'>
+        <div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed
@@ -14,13 +14,13 @@ function Main() {
             posuere malesuada
           </p>
         </div>
-        <div className='buttons'>
+        <div className={styles.buttons}>
           <a href=''>
-            <button className='left-btn'>Projects </button>
+            <button className={styles["left-btn"]}>Projects </button>
           </a>
 
           <a href=''>
-            <button className='right-btn'>Contact</button>
+            <button className={styles["right-btn"]}>Contact</button>
           </a>
         </div>
       </div>

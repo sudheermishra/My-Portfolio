@@ -1,15 +1,13 @@
-.cards {
-  max-width: 1100;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 .card {
   width: 494px;
   margin: 0 0 5rem 0;
   min-height: 700px;
   overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  scale: 1.03;
+  cursor: pointer;
 }
 
 .card-image {
@@ -55,4 +53,8 @@
   height: 35px;
   width: 35px;
   color: black;
+}
+.github:hover,
+.link:hover {
+  color: #0000ee;
 }

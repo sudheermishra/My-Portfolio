@@ -2,12 +2,12 @@ footer {
   text-align: center;
 }
 
-.footer-group {
+.footerGroup {
   max-width: 1140px;
   margin: 50px auto 20px auto;
 }
 
-.footer-group span {
+.footerGroup span {
   display: inline-block;
   height: 30px;
   width: 30px;

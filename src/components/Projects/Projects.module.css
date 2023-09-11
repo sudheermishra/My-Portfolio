@@ -9,3 +9,10 @@
   font-size: 36px;
   font-weight: 400;
 }
+
+.cards {
+  max-width: 1100;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

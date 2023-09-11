@@ -1,13 +1,13 @@
-import "./Footer.css";
+import styles from "./Footer.module.css";
 
 function Footer() {
   return (
     <footer>
-      <div className='footer-group'>
-        <span className='circle'></span>
-        <span className='circle'></span>
-        <span className='circle'></span>
-        <span className='circle'></span>
+      <div className={styles.footerGroup}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </footer>
   );
