@@ -12,7 +12,11 @@ function Header() {
     <header className='home'>
       <nav>
         <div className='nav-content container'>
-          <div>
+          <div
+            onClick={() => {
+              scroll.scrollToTop();
+            }}
+          >
             <h2 className='logo'>Name</h2>
           </div>
 
