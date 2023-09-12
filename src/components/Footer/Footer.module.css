@@ -3,13 +3,13 @@ footer {
   text-align: center;
 }
 
-.footer-group {
+.footerGroup {
   max-width: 1140px;
   height: 381px;
   margin: 50px auto;
 }
 
-span {
+.footerGroup span {
   display: inline-block;
   height: 30px;
   width: 30px;

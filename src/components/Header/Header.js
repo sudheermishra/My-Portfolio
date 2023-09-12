@@ -9,59 +9,54 @@ function Header() {
     setClicked(!clicked);
   };
   return (
-    <header className='home'>
+    <header className="home">
       <nav>
-        <div className='nav-content container'>
+        <div className="nav-content container">
           <div
             onClick={() => {
               scroll.scrollToTop();
-            }}
-          >
-            <h2 className='logo'>Name</h2>
+            }}>
+            <h2 className="logo">Sudheer</h2>
           </div>
 
-          <ul className='nav-links'>
-            <li className='nav-link link'>
+          <ul className="nav-links">
+            <li className="nav-link link">
               <Link
-                to='home'
+                to="home"
                 smooth={true}
                 duration={1000}
                 offset={-300}
-                onClick={handleNavigationClick}
-              >
+                onClick={handleNavigationClick}>
                 Home
               </Link>
             </li>
-            <li className='nav-link link'>
+            <li className="nav-link link">
               <Link
-                to='about'
+                to="about"
                 smooth={true}
                 duration={1000}
                 offset={-90}
-                onClick={handleNavigationClick}
-              >
+                onClick={handleNavigationClick}>
                 About
               </Link>
             </li>
-            <li className='nav-link link'>
+            <li className="nav-link link">
               <Link
-                to='projects'
+                to="projects"
                 smooth={true}
                 duration={1000}
                 offset={-90}
-                onClick={handleNavigationClick}
-              >
+                onClick={handleNavigationClick}>
                 projects
               </Link>
             </li>
-            <li className='nav-link last-nav-link'>
+            <li className="nav-link last-nav-link">
               <Link
-                to='contact'
+                to="contact"
                 smooth={true}
                 duration={1000}
                 offset={-90}
-                onClick={handleNavigationClick}
-              >
+                onClick={handleNavigationClick}>
                 <button>Contact</button>
               </Link>
             </li>
@@ -69,11 +64,10 @@ function Header() {
         </div>
       </nav>
       <div
-        className='scroll-to-top'
+        className="scroll-to-top"
         onClick={() => {
           scroll.scrollToTop();
-        }}
-      >
+        }}>
         <button>
           <BsFillArrowUpCircleFill />
         </button>
