@@ -1,25 +1,29 @@
 import React from "react";
 import styles from "./Main.module.css";
+import sudheer from "../../assets/sudheer.jpg";
+
 function Main() {
   return (
     <main>
+      <div className={styles.image}>
+        <img src={sudheer} alt="sudheer" />
+      </div>
+
       <div>
-        <h1>Developer Name</h1>
+        <h1>Sudheer Mishra</h1>
         <hr />
         <div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed
-            nec ex non justo dictum venenatis. Fusce nec purus nec mauris
-            posuere malesuada
+            Hello, I'm Sudheer Mishra, a passionate Frontend Developer with a
+            specialization in React.
           </p>
         </div>
         <div className={styles.buttons}>
-          <a href=''>
+          <a href="">
             <button className={styles["left-btn"]}>Projects </button>
           </a>
 
-          <a href=''>
+          <a href="">
             <button className={styles["right-btn"]}>Contact</button>
           </a>
         </div>

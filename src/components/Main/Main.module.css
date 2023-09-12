@@ -1,8 +1,16 @@
 main {
-  margin-top: 200px;
   text-align: center;
   max-width: 800px;
-  margin: 200px auto;
+  margin: 120px auto;
+}
+
+.image {
+  padding-bottom: 30px;
+}
+.image img {
+  width: 250px;
+  border-radius: 20px;
+  object-position: center;
 }
 
 main h1 {
