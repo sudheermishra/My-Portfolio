@@ -13,12 +13,38 @@
   font-size: 18px;
   margin: 2rem auto;
 }
+
+.about-text p {
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-style: italic;
+  font-size: 19px;
+}
 .tech-stack {
   display: flex;
-  justify-content: center;
+  max-width: 950px;
+  width: 90%;
+  justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
-  margin: 0 auto;
+  margin: 50px auto 0 auto;
+  flex-wrap: wrap;
+  height: 400px;
+  gap: 4rem;
+}
+
+.tech-stack img {
+  width: 120px;
+  height: 120px;
+}
+
+.technology h2 {
+  font-size: 36px;
+  text-align: center;
+}
+.technology {
+  padding-top: 100px;
 }
 
 .tech-stack p {

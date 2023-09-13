@@ -16,7 +16,7 @@ function Header() {
             onClick={() => {
               scroll.scrollToTop();
             }}>
-            <h2 className="logo">Sudheer</h2>
+            <h2 className="logo">MY PORTFOLIO</h2>
           </div>
 
           <ul className="nav-links">
@@ -27,7 +27,7 @@ function Header() {
                 duration={1000}
                 offset={-300}
                 onClick={handleNavigationClick}>
-                Home
+                HOME
               </Link>
             </li>
             <li className="nav-link link">
@@ -37,7 +37,7 @@ function Header() {
                 duration={1000}
                 offset={-90}
                 onClick={handleNavigationClick}>
-                About
+                ABOUT
               </Link>
             </li>
             <li className="nav-link link">
@@ -47,8 +47,11 @@ function Header() {
                 duration={1000}
                 offset={-90}
                 onClick={handleNavigationClick}>
-                projects
+                PROJECTS
               </Link>
+            </li>
+            <li className="nav-link link">
+              <a href="#"> CV</a>
             </li>
             <li className="nav-link last-nav-link">
               <Link
@@ -57,7 +60,7 @@ function Header() {
                 duration={1000}
                 offset={-90}
                 onClick={handleNavigationClick}>
-                <button>Contact</button>
+                <button>CONTACT</button>
               </Link>
             </li>
           </ul>
