@@ -15,29 +15,31 @@ function ProjectCard({
 }) {
   return (
     <>
-      <div className={styles.card}>
-        <div className={styles["card-image"]}>
-          <img src={img} alt={title} />
-        </div>
+      <div className={styles.cardWrapper}>
+        <div className={styles.card}>
+          <div className={styles["card-image"]}>
+            <img src={img} alt={title} />
+          </div>
 
-        <div className={styles["card-details"]}>
-          <h3 className={styles["card-title"]}>{title}</h3>
-          <div className={styles["card-info"]}>
-            <p>{projectInfo}</p>
-          </div>
-          <div className={styles["card-techstack"]}>
-            <span>{techStack1}</span>
-            <span>{techStack2}</span>
-            <span>{techStack3}</span>
-            <span>{techStack4}</span>
-          </div>
-          <div className={styles["card-links"]}>
-            <a href={github} target='blank'>
-              <AiFillGithub className={styles.github} />
-            </a>
-            <a href={liveLink} target='blank'>
-              <AiOutlineLink className={styles.link} />
-            </a>
+          <div className={styles["card-details"]}>
+            <h3 className={styles["card-title"]}>{title}</h3>
+            <div className={styles["card-info"]}>
+              <p>{projectInfo}</p>
+            </div>
+            <div className={styles["card-techstack"]}>
+              <span>{techStack1}</span>
+              <span>{techStack2}</span>
+              <span>{techStack3}</span>
+              <span>{techStack4}</span>
+            </div>
+            <div className={styles["card-links"]}>
+              <a href={github} target='blank'>
+                <AiFillGithub className={styles.github} />
+              </a>
+              <a href={liveLink} target='blank'>
+                <AiOutlineLink className={styles.link} />
+              </a>
+            </div>
           </div>
         </div>
       </div>

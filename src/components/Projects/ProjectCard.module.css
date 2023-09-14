@@ -1,11 +1,19 @@
 .card {
   width: 494px;
-  margin: 0 0 5rem 0;
-  min-height: 700px;
+  margin: 0 0 3rem 0;
+  min-height: 600px;
   overflow: hidden;
-  transition: all 0.2s ease-in-out;
+  border-radius: 10px;
 }
-.card:hover {
+.cardWrapper {
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 5px 20px 1px #00000027;
+
+  margin-bottom: 3rem;
+}
+
+.cardWrapper:hover {
   scale: 1.03;
   cursor: pointer;
 }
@@ -21,6 +29,9 @@
   object-fit: fill;
 }
 
+.card-details {
+  padding: 1rem;
+}
 .card-title {
   font-size: 24px;
   font-weight: 400;

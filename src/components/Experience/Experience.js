@@ -4,11 +4,11 @@ import { LiaBuildingSolid } from "react-icons/lia";
 
 function Experience() {
   return (
-    <section className={styles.workexperience}>
+    <section className={styles.workExperience}>
       <h2> Work Experience</h2>
       <hr />
       <div className={styles.experience}>
-        <div className={styles.first}>
+        <div className={styles.companyDetail}>
           <p className={styles["experience-title"]}>
             Web Development Internship
           </p>
@@ -19,8 +19,8 @@ function Experience() {
             CyberCuboid
           </p>
         </div>
-        <div>
-          <p className={styles.internship}>internship</p>
+        <div className={styles.workingDateAndYear}>
+          <p className={styles.internship}>Internship</p>
           <p className={styles.year}>
             <span>
               <SlCalender className={styles.icon1} />
