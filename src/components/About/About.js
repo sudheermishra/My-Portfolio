@@ -9,7 +9,7 @@ import github from "../../assets/Techstack/github.png";
 
 function About() {
   return (
-    <section className={styles.about} id="about">
+    <section className={styles.about} id='about'>
       <h2>About Me</h2>
       <hr />
       <div className={styles["about-text"]}>
@@ -26,18 +26,17 @@ function About() {
         </p>
       </div>
 
-      <div className={styles.technology}>
+      <div className={styles.technology} id='techstacks'>
         <h2>My Techstack</h2>
         <hr />
-        <p>Technologies I’ve been working with recently</p>
         <div className={styles["tech-stack"]}>
-          <img src={html} alt="html" />
-          <img src={css} alt="css" />
-          <img src={javascript} alt="js" />
-          <img src={react} alt="react" />
-          <img src={vscode} alt="vsCode" />
-          <img src={github} alt="github" />
-          <img src={git} alt="git" />
+          <img src={html} alt='html' />
+          <img src={css} alt='css' />
+          <img src={javascript} alt='js' />
+          <img src={react} alt='react' />
+          <img src={vscode} alt='vsCode' />
+          <img src={github} alt='github' />
+          <img src={git} alt='git' />
         </div>
       </div>
     </section>
