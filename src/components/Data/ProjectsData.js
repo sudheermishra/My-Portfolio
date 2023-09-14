@@ -26,7 +26,7 @@ export const projectsData = [
     techStack3: "JavaScript",
     img: joke,
     github: "https://github.com/sudheermishra/Joke-project",
-    liveLink: "https://vercel.com/sudheermishra/jokejoy",
+    liveLink: "https://jokejoy.vercel.app/",
   },
   {
     id: 3,
@@ -38,6 +38,6 @@ export const projectsData = [
     techStack3: "JavaScript",
     img: Todolist,
     github: "https://github.com/sudheermishra/Todo-and-singup-project",
-    liveLink: "https://vercel.com/sudheermishra/todo-project",
+    liveLink: "https://todo-project-rho.vercel.app/",
   },
 ];

@@ -29,7 +29,7 @@ function About() {
       <div className={styles.technology}>
         <h2>My Techstack</h2>
         <hr />
-        <p>Technologies I’ve been working with recently</p>
+        <p>Technologies I've been working with recently</p>
         <div className={styles["tech-stack"]}>
           <img src={html} alt="html" />
           <img src={css} alt="css" />
