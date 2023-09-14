@@ -1,6 +1,7 @@
 import Textutils from "../../assets/ProjectsImage/Textutils.png";
 import Todolist from "../../assets/ProjectsImage/Todolist.png";
 import joke from "../../assets/ProjectsImage/Joke.png";
+import Portfolio from "../../assets/ProjectsImage/portfolio.png";
 
 export const projectsData = [
   {
@@ -39,5 +40,18 @@ export const projectsData = [
     img: Todolist,
     github: "https://github.com/sudheermishra/Todo-and-singup-project",
     liveLink: "https://todo-project-rho.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "My-Portfolio",
+    projectInfo:
+      "My React-based portfolio offers an exceptional user experience with its sleek and intuitive design. It stands out with unique features that set it apart from the rest, making it a memorable showcase of my skills and work.",
+    techStack1: " HTML",
+    techStack2: "CSS",
+    techStack3: "JavaScript",
+    techStack4: "React",
+    img: Portfolio,
+    github: "",
+    liveLink: "",
   },
 ];

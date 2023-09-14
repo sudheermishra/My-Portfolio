@@ -11,16 +11,21 @@ function Footer() {
             className={styles.left}
             onClick={() => {
               scroll.scrollToTop();
-            }}
-          >
-            <h2>Sudheer</h2>
+            }}>
+            <h2>Sudheer/Portfolio</h2>
           </div>
           <div className={styles.middle}>
             <span>
-              <AiFillGithub className={styles.github} />
+              <a href="https://github.com/sudheermishra" target="blank">
+                <AiFillGithub className={styles.github} />
+              </a>
             </span>
             <span>
-              <AiFillLinkedin className={styles.linkedin} />
+              <a
+                href="https://www.linkedin.com/in/sudheer-mishra-b7302a258/"
+                target="blank">
+                <AiFillLinkedin className={styles.linkedin} />
+              </a>
             </span>
           </div>
 
@@ -30,7 +35,7 @@ function Footer() {
           </div>
         </div>
         <div className={styles.designAndBuit}>
-          <p>Designed and Built By Sudheer Mishra & Uzair Sayyed</p>
+          <p>Designed and Built By Sudheer Mishra</p>
         </div>
       </div>
     </footer>
