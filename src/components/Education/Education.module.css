@@ -1,59 +1,50 @@
 .education {
-  max-width: 1100px;
-  margin: 3rem auto;
+  text-align: center;
+  max-width: 1140px;
+  margin: 200px auto;
 }
 
 .education h2 {
-  text-align: center;
   font-size: 36px;
   font-weight: 400;
 }
 
-.bachelor {
-  padding-top: 3rem;
+.college {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.29);
+  align-items: center;
+  margin: 15px auto;
 }
 
-.bachelor p {
-  margin-bottom: 1rem;
+body > .education > div:first-child {
+  background-color: yellow;
 }
 
-.master {
-  padding-top: 2rem;
-  display: flex;
-  justify-content: space-between;
+.clgName {
+  margin: 1.5rem 0;
+  text-align: left;
 }
 
-.master p {
-  margin-bottom: 1rem;
+.education-title,
+.yearCompleted {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
-.firstchild {
-  max-width: 150px;
-  text-align: center;
+.clgDetails {
+  text-align: right;
 }
 
-.education-title {
+.education span {
+  margin-right: 10px;
   font-size: 18px;
-}
-
-.yearcompleted {
-  background-color: #d7ffe0;
-  color: #018c0f;
-  font-weight: 500;
-  border-radius: 50px;
-  font-size: 15px;
-  padding: 10px 10px;
-  text-align: center;
-}
-
-.universitylogo {
-  font-size: 18px;
+  margin-top: 20px;
   position: relative;
-  top: 4px;
-  margin-right: 6px;
-  color: #a7a7a7;
+  top: 2px;
+}
+
+.seprationLine {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.479);
+  padding-bottom: 15px;
 }

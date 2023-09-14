@@ -20,3 +20,16 @@ hr {
   max-width: 270px;
   margin: 40px auto;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  border-left: 0.5px solid rgba(0, 0, 0, 0.384);
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}

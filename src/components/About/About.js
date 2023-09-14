@@ -26,10 +26,10 @@ function About() {
         </p>
       </div>
 
-      <div className={styles.technology}>
+      <div className={styles.technology} id="techstacks">
         <h2>My Techstack</h2>
         <hr />
-        <p>Technologies I've been working with recently</p>
+        <p>Technologies I’ve been working with recently</p>
         <div className={styles["tech-stack"]}>
           <img src={html} alt="html" />
           <img src={css} alt="css" />

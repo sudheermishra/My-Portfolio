@@ -1,18 +1,25 @@
 footer {
   margin-top: -20px;
   text-align: center;
+  padding: 0.5rem 2rem 2rem 2rem;
+  max-width: 1440px;
+  margin: 50px auto 0 auto;
 }
 
 .footerGroup {
-  max-width: 1140px;
-  margin: 50px auto;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
   align-items: center;
+  margin-bottom: 35px;
+}
+
+.footerGroup h2 {
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .left {
-  flex: 1;
+  text-align: left;
 }
 
 .middle {
@@ -23,7 +30,14 @@ footer {
 .github,
 .linkedin {
   font-size: 24px;
-  margin: 0 10px;
+  margin: 0 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.github:hover,
+.linkedin:hover {
+  color: #0000ee;
 }
 
 .right {
@@ -35,12 +49,19 @@ footer {
 .gmail {
   display: block;
   margin: 5px 0;
+  font-size: 18px;
 }
 
 .number {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .gmail {
   font-style: italic;
+}
+
+.designAndBuit {
+  border-top: 1px solid rgba(0, 0, 0, 0.568);
+  padding-top: 3rem;
+  font-weight: 500;
 }

@@ -1,8 +1,7 @@
 .contact {
-  margin-top: 200px;
   max-width: 1140px;
   height: 381px;
-  margin: 150px auto 150px auto;
+  margin: 100px auto 200px auto;
   text-align: right;
 }
 
@@ -13,6 +12,9 @@
   text-align: center;
 }
 
+form {
+  margin-top: 60px;
+}
 .form-group {
   display: flex;
   justify-content: space-between;
