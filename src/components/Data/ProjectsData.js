@@ -52,6 +52,6 @@ export const projectsData = [
     techStack4: "React",
     img: Portfolio,
     github: "",
-    liveLink: "",
+    liveLink: "https://sudheermishra.netlify.app/",
   },
 ];

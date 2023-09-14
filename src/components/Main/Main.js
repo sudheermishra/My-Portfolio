@@ -10,7 +10,7 @@ function Main() {
       </div>
 
       <div>
-        <h1>Sudheer Mishra</h1>
+        <h1>Sudheer</h1>
         <hr />
         <div>
           <p>
