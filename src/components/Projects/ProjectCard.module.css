@@ -9,7 +9,6 @@
   border-radius: 10px;
   transition: all 0.2s ease-in-out;
   box-shadow: 0 5px 20px 1px #00000027;
-
   margin-bottom: 3rem;
 }
 
@@ -68,4 +67,69 @@
 .github:hover,
 .link:hover {
   color: #0000ee;
+}
+
+@media (width < 1100px) {
+  .card {
+    width: 440px;
+    margin: 0 0 3rem 0;
+    min-height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .cardWrapper {
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 5px 20px 1px #00000027;
+
+    margin-bottom: 3rem;
+  }
+}
+
+@media (width < 950px) {
+  .card {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .card-image {
+    height: 250px;
+  }
+
+  .card-details {
+    padding: 1rem;
+  }
+  .card-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0.5rem 0;
+    border-bottom: 1px solid #5e5e5e;
+    padding-bottom: 1rem;
+  }
+
+  .card-info {
+    font-size: 15px;
+    padding-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-techstack {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+
+  .card-techstack span {
+    margin: 0 0.5rem 0 0;
+  }
+
+  .card-links a {
+    margin: 0 1rem 0 0;
+  }
+
+  .github,
+  .link {
+    height: 30px;
+    width: 30px;
+    color: black;
+  }
 }

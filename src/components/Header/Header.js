@@ -1,13 +1,17 @@
 import "./Header.css";
 import React, { useState } from "react";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
-import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 import { animateScroll as scroll } from "react-scroll";
+import { AiOutlineMenu } from "react-icons/ai";
+import { ImCross } from "react-icons/im";
+
 function Header() {
   const [clicked, setClicked] = useState(false);
   const handleNavigationClick = () => {
     setClicked(!clicked);
   };
+
   return (
     <header className="home">
       <nav>
@@ -16,49 +20,31 @@ function Header() {
             onClick={() => {
               scroll.scrollToTop();
             }}>
-            <h2 className="logo">PORTFOLIO</h2>
+            <NavLink to="/" className="logo">
+              <h2 className="logo">PORTFOLIO</h2>
+            </NavLink>
           </div>
 
-          <ul className="nav-links">
+          <ul className={`${clicked ? "nav-links active" : "nav-links"} `}>
             <li className="nav-link link">
-              <Link
-                to="home"
-                smooth={true}
-                duration={1000}
-                offset={-300}
-                onClick={handleNavigationClick}>
+              <NavLink to="/" onClick={handleNavigationClick}>
                 HOME
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-link link">
-              <Link
-                to="about"
-                smooth={true}
-                duration={1000}
-                offset={-90}
-                onClick={handleNavigationClick}>
+              <NavLink to="/about" onClick={handleNavigationClick}>
                 ABOUT
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-link link">
-              <Link
-                to="techstacks"
-                smooth={true}
-                duration={1000}
-                offset={-90}
-                onClick={handleNavigationClick}>
+              <NavLink to="/techstacks" onClick={handleNavigationClick}>
                 TECHSTACKS
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-link link">
-              <Link
-                to="projects"
-                smooth={true}
-                duration={1000}
-                offset={-90}
-                onClick={handleNavigationClick}>
+              <NavLink to="/projects" onClick={handleNavigationClick}>
                 PROJECTS
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-link link">
               <a href="https://drive.google.com/uc?export=download&id=152YjYIEzDm07lIjWJppi2C_70bfRkN7p">
@@ -66,16 +52,20 @@ function Header() {
               </a>
             </li>
             <li className="nav-link last-nav-link">
-              <Link
-                to="contact"
-                smooth={true}
-                duration={1000}
-                offset={-90}
-                onClick={handleNavigationClick}>
+              <NavLink to="/contact" onClick={handleNavigationClick}>
                 <button>CONTACT</button>
-              </Link>
+              </NavLink>
             </li>
           </ul>
+          <div className="mobile">
+            <span onClick={handleNavigationClick}>
+              {clicked ? (
+                <ImCross className="close " />
+              ) : (
+                <AiOutlineMenu className="open" />
+              )}
+            </span>
+          </div>
         </div>
       </nav>
       <div
