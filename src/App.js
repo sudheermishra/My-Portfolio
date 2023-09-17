@@ -4,21 +4,22 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
-import Experience from "./components/Experience/Experience";
-import Education from "./components/Education/Education";
+import Techstack from "./components/Techstack/Techstack";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Header />
-      <Main />
-      <About />
-      <Experience />
-      <Education />
-      <Projects />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="about" element={<About />} />
+        <Route path="techstacks" element={<Techstack />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
 

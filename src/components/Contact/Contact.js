@@ -3,6 +3,7 @@ import styles from "./Contact.module.css";
 function Contact() {
   const handlesubmit = (e) => {
     e.preventDefault();
+    console.log("hello");
   };
 
   return (
@@ -13,8 +14,8 @@ function Contact() {
       <hr />
 
       <form
-        action="https://formspree.io/f/xrgwlpzz"
-        method="POST"
+        action={"https://formspree.io/f/xrgwlpzz"}
+        method={"post"}
         onSubmit={handlesubmit}>
         <div className={styles["form-group"]}>
           <div className={styles["left-form"]}>
@@ -23,8 +24,9 @@ function Contact() {
               <br />
               <input
                 type="text"
-                name="name"
+                name="Name"
                 id="name"
+                // value={name}
                 required
                 placeholder="john Doe"
               />
@@ -34,8 +36,9 @@ function Contact() {
               <br />
               <input
                 type="email"
-                name="email"
+                name="Email"
                 id="email"
+                // value={email}
                 placeholder="johndoe@gmail.com"
                 required
               />
@@ -46,8 +49,9 @@ function Contact() {
             <div className="form-message">
               <label htmlFor="message">Your Message</label> <br />
               <textarea
-                name="message"
+                name="Message"
                 id="message"
+                // value={message}
                 placeholder="Enter your Message here"
                 required></textarea>
             </div>

@@ -65,3 +65,9 @@ footer {
   padding-top: 3rem;
   font-weight: 500;
 }
+
+@media (width < 1100px) {
+  .footerGroup {
+    grid-template-columns: 1fr;
+  }
+}
