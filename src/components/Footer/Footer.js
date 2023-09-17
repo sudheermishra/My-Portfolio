@@ -2,6 +2,8 @@ import styles from "./Footer.module.css";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { animateScroll as scroll } from "react-scroll";
+import { FaBars } from "react-icons/fa";
+import { RxCross2 } from "react-icons/rx";
 function Footer() {
   return (
     <footer>
@@ -11,19 +13,21 @@ function Footer() {
             className={styles.left}
             onClick={() => {
               scroll.scrollToTop();
-            }}>
+            }}
+          >
             <h2>Sudheer/Portfolio</h2>
           </div>
           <div className={styles.middle}>
             <span>
-              <a href="https://github.com/sudheermishra" target="blank">
+              <a href='https://github.com/sudheermishra' target='blank'>
                 <AiFillGithub className={styles.github} />
               </a>
             </span>
             <span>
               <a
-                href="https://www.linkedin.com/in/sudheer-mishra-b7302a258/"
-                target="blank">
+                href='https://www.linkedin.com/in/sudheer-mishra-b7302a258/'
+                target='blank'
+              >
                 <AiFillLinkedin className={styles.linkedin} />
               </a>
             </span>
