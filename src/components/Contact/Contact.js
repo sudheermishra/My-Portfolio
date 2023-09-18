@@ -16,10 +16,6 @@ function Contact() {
     SetMessage(e.target.value);
   };
 
-  const handlesubmit = (e) => {
-    e.preventDefault();
-  };
-
   return (
     <section className={styles.contact} id="contact">
       <div className="contact-header">
@@ -27,10 +23,7 @@ function Contact() {
       </div>
       <hr />
 
-      <form
-        onSubmit={handlesubmit}
-        action="https://formsubmit.co/ 9ff2630c40973c1472dcca5e91c9a0c3"
-        method="POST">
+      <form action={"https://formspree.io/f/meqbzrew"} method={"POST"}>
         <div className={styles["form-group"]}>
           <div className={styles["left-form"]}>
             <div className="form-name">
@@ -60,7 +53,6 @@ function Contact() {
               />
             </div>
           </div>
-
           <div className={styles["right-form"]}>
             <div className="form-message">
               <label htmlFor="message">Your Message</label> <br />

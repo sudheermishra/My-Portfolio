@@ -10,20 +10,20 @@ import styles from "./Techstack.module.css";
 
 function Techstack() {
   return (
-    <div className={styles.technology} id="techstacks">
+    <section className={styles.technology} id='techstacks'>
       <h2>My Techstack</h2>
       <hr />
       <p>Technologies I’ve been working with recently</p>
       <div className={styles["tech-stack"]}>
-        <img src={html} alt="html" />
-        <img src={css} alt="css" />
-        <img src={javascript} alt="js" />
-        <img src={react} alt="react" />
-        <img src={vscode} alt="vsCode" />
-        <img src={github} alt="github" />
-        <img src={git} alt="git" />
+        <img src={html} alt='html' />
+        <img src={css} alt='css' />
+        <img src={javascript} alt='js' />
+        <img src={react} alt='react' />
+        <img src={vscode} alt='vsCode' />
+        <img src={github} alt='github' />
+        <img src={git} alt='git' />
       </div>
-    </div>
+    </section>
   );
 }
 

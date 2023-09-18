@@ -15,7 +15,7 @@ function Header() {
   return (
     <header className='home'>
       <nav>
-        <div className='nav-content container'>
+        <div className='nav-content'>
           <div
             onClick={() => {
               scroll.scrollToTop();
@@ -58,6 +58,7 @@ function Header() {
               </NavLink>
             </li>
           </ul>
+
           <div className='mobile'>
             <span onClick={handleNavigationClick}>
               {clicked ? (
