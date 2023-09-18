@@ -13,70 +13,62 @@ function Header() {
   };
 
   return (
-    <header className="home">
+    <header className='home'>
       <nav>
-        <div className="nav-content container">
+        <div className='nav-content container'>
           <div
             onClick={() => {
               scroll.scrollToTop();
-            }}>
-            <NavLink to="/" className="logo">
-              <h2 className="logo">PORTFOLIO</h2>
+            }}
+          >
+            <NavLink to='/' className='logo'>
+              <h2 className='logo'>PORTFOLIO</h2>
             </NavLink>
           </div>
 
           <ul className={`${clicked ? "nav-links active" : "nav-links"} `}>
-            <li className="nav-link link">
-              <NavLink to="/" onClick={handleNavigationClick}>
+            <li className='nav-link link'>
+              <NavLink to='/' onClick={handleNavigationClick}>
                 HOME
               </NavLink>
             </li>
-            <li className="nav-link link">
-              <NavLink to="/about" onClick={handleNavigationClick}>
+            <li className='nav-link link'>
+              <NavLink to='/about' onClick={handleNavigationClick}>
                 ABOUT
               </NavLink>
             </li>
-            <li className="nav-link link">
-              <NavLink to="/techstacks" onClick={handleNavigationClick}>
+            <li className='nav-link link'>
+              <NavLink to='/techstacks' onClick={handleNavigationClick}>
                 TECHSTACKS
               </NavLink>
             </li>
-            <li className="nav-link link">
-              <NavLink to="/projects" onClick={handleNavigationClick}>
+            <li className='nav-link link'>
+              <NavLink to='/projects' onClick={handleNavigationClick}>
                 PROJECTS
               </NavLink>
             </li>
-            <li className="nav-link link">
-              <a href="https://drive.google.com/uc?export=download&id=152YjYIEzDm07lIjWJppi2C_70bfRkN7p">
+            <li className='nav-link link'>
+              <a href='https://drive.google.com/uc?export=download&id=152YjYIEzDm07lIjWJppi2C_70bfRkN7p'>
                 CV
               </a>
             </li>
-            <li className="nav-link last-nav-link">
-              <NavLink to="/contact" onClick={handleNavigationClick}>
+            <li className='nav-link last-nav-link'>
+              <NavLink to='/contact' onClick={handleNavigationClick}>
                 <button>CONTACT</button>
               </NavLink>
             </li>
           </ul>
-          <div className="mobile">
+          <div className='mobile'>
             <span onClick={handleNavigationClick}>
               {clicked ? (
-                <ImCross className="close " />
+                <ImCross className='close ' />
               ) : (
-                <AiOutlineMenu className="open" />
+                <AiOutlineMenu className='open' />
               )}
             </span>
           </div>
         </div>
       </nav>
-      <div
-        className="scroll-to-top"
-        onClick={() => {
-          scroll.scrollToTop();
-        }}>
-        <button>
-          <BsFillArrowUpCircleFill />
-        </button>
-      </div>
     </header>
   );
 }
