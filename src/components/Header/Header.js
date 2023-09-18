@@ -69,16 +69,6 @@ function Header() {
           </div>
         </div>
       </nav>
-      <div
-        className='scroll-to-top'
-        onClick={() => {
-          scroll.scrollToTop();
-        }}
-      >
-        <button>
-          <BsFillArrowUpCircleFill />
-        </button>
-      </div>
     </header>
   );
 }

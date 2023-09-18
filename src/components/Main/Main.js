@@ -6,7 +6,7 @@ function Main() {
   return (
     <main>
       <div className={styles.image}>
-        <img src={sudheer} alt="sudheer" />
+        <img src={sudheer} alt='sudheer' />
       </div>
 
       <div>
@@ -19,11 +19,11 @@ function Main() {
           </p>
         </div>
         <div className={styles.buttons}>
-          <a href="">
+          <a href='#' className='left'>
             <button className={styles["left-btn"]}>Projects </button>
           </a>
 
-          <a href="">
+          <a href='#' className='right'>
             <button className={styles["right-btn"]}>Contact</button>
           </a>
         </div>
