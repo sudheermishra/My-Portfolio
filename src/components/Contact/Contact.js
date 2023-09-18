@@ -1,9 +1,23 @@
 import styles from "./Contact.module.css";
+import { useState } from "react";
 
 function Contact() {
+  const [name, SetName] = useState("");
+  const [email, SetEmail] = useState("");
+  const [message, SetMessage] = useState("");
+
+  const handlechangename = (e) => {
+    SetName(e.target.value);
+  };
+  const handlechangeemail = (e) => {
+    SetEmail(e.target.value);
+  };
+  const handlechangemesaage = (e) => {
+    SetMessage(e.target.value);
+  };
+
   const handlesubmit = (e) => {
     e.preventDefault();
-    console.log("hello");
   };
 
   return (
@@ -14,9 +28,9 @@ function Contact() {
       <hr />
 
       <form
-        action={"https://formspree.io/f/xrgwlpzz"}
-        method={"post"}
-        onSubmit={handlesubmit}>
+        onSubmit={handlesubmit}
+        action="https://formsubmit.co/ 9ff2630c40973c1472dcca5e91c9a0c3"
+        method="POST">
         <div className={styles["form-group"]}>
           <div className={styles["left-form"]}>
             <div className="form-name">
@@ -24,11 +38,12 @@ function Contact() {
               <br />
               <input
                 type="text"
-                name="Name"
+                name="name"
                 id="name"
-                // value={name}
+                value={name}
                 required
                 placeholder="john Doe"
+                onChange={handlechangename}
               />
             </div>
             <div className="form-email">
@@ -36,9 +51,10 @@ function Contact() {
               <br />
               <input
                 type="email"
-                name="Email"
+                name="email"
                 id="email"
-                // value={email}
+                value={email}
+                onChange={handlechangeemail}
                 placeholder="johndoe@gmail.com"
                 required
               />
@@ -49,15 +65,15 @@ function Contact() {
             <div className="form-message">
               <label htmlFor="message">Your Message</label> <br />
               <textarea
-                name="Message"
+                name="message"
                 id="message"
-                // value={message}
+                onChange={handlechangemesaage}
+                value={message}
                 placeholder="Enter your Message here"
                 required></textarea>
             </div>
           </div>
         </div>
-
         <button type="submit" className={styles["submit-btn"]}>
           Submit
         </button>
