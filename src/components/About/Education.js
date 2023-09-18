@@ -42,7 +42,7 @@ function Education() {
         </div>
         <div className={styles.clgDetails}>
           <p className={styles.yearCompleted}>Pursuing</p>
-          <p>
+          <p className={styles.year}>
             <span>
               <SlCalender className={styles.universitylogo} />
             </span>

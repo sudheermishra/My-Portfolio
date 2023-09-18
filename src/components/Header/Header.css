@@ -15,6 +15,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .logo {
@@ -69,30 +71,27 @@ nav {
   scale: 0.9;
 }
 
-.scroll-to-top {
-  position: fixed;
-  right: 20px;
-  bottom: 0px;
-  transform: translate(-70%, -70%);
-  z-index: 100;
-}
-
-.scroll-to-top button {
-  border: none;
-  background: transparent;
-  font-size: 2rem;
-  cursor: pointer;
-}
-.scroll-to-top button:hover {
-  scale: 1.1;
-}
-
 .open,
 .close {
   display: none;
 }
+.mobile {
+  display: none;
+}
 
-@media (width < 744px) {
+@media (width < 540px) {
+  nav {
+    height: 60px;
+  }
+  .nav-content {
+    height: 60px;
+  }
+  .nav-links {
+    top: 60px;
+  }
+}
+
+@media (width < 880px) {
   .nav-links {
     width: 100%;
     position: fixed;
@@ -106,9 +105,15 @@ nav {
     transition: right 0.3s ease-in-out;
   }
 
+  .mobile {
+    display: flex;
+  }
+
   .nav-link {
     margin-bottom: 20px;
+    margin-left: 0px !important;
   }
+
   .open,
   .close {
     display: block;
@@ -119,21 +124,27 @@ nav {
   .nav-links.active {
     right: 0;
   }
-
-  .last-nav-link,
-  .nav-link {
-    margin-left: 0rem;
-  }
 }
 
-@media (width < 540px) {
-  nav {
-    height: 60px;
-  }
-  .nav-content {
-    height: 60px;
+@media (width<1096px) {
+  .logo {
+    font-size: 25px;
   }
   .nav-links {
-    top: 60px;
+    gap: 0rem;
+  }
+  .nav-link {
+    margin-left: 30px;
+  }
+  .nav-link a {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .last-nav-link {
+    margin-left: 30px;
+  }
+  .last-nav-link button {
+    font-size: 18px;
+    padding: 0.5rem 2rem;
   }
 }
