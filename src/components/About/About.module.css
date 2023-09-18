@@ -20,3 +20,21 @@
   font-style: italic;
   font-size: 19px;
 }
+
+@media (width<540px) {
+  .about h2 {
+    font-size: 30px;
+  }
+
+  .about-text p {
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-style: italic;
+    font-size: 16px;
+  }
+  .about hr {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}

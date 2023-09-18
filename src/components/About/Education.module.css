@@ -48,3 +48,21 @@ body > .education > div:first-child {
   border-bottom: 1px solid rgba(0, 0, 0, 0.479);
   padding-bottom: 15px;
 }
+
+@media (width < 540px) {
+  .education h2 {
+    font-size: 30px;
+  }
+
+  .education-title,
+  .yearCompleted {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .current,
+  .year {
+    font-size: 12px;
+  }
+}
