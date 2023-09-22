@@ -60,3 +60,17 @@
     margin-right: 10px;
   }
 }
+
+@media (width < 660px) {
+  .experience {
+    flex-direction: column;
+  }
+  .internship {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .current {
+    text-align: center;
+  }
+}

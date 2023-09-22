@@ -66,3 +66,15 @@ body > .education > div:first-child {
     font-size: 12px;
   }
 }
+
+@media (width < 660px) {
+  .college {
+    flex-direction: column;
+  }
+  .clgName {
+    text-align: center;
+  }
+  .clgDetails {
+    text-align: center;
+  }
+}

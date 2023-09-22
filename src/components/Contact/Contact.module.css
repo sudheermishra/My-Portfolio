@@ -148,6 +148,9 @@ textarea {
   .contact h2 {
     font-size: 30px;
   }
+  .left-form input {
+    height: 30px;
+  }
 
   form {
     margin-top: 20px;
@@ -155,6 +158,10 @@ textarea {
 
   .contact hr {
     margin-top: -15px;
+  }
+
+  textarea {
+    height: 100px;
   }
 }
 
