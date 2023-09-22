@@ -15,12 +15,10 @@ main {
 
 main h1 {
   font-size: 48px;
-  color: var(--text-color);
   font-weight: 400;
 }
 
 main p {
-  color: var(--text-color);
   margin: 3rem auto;
   font-size: 25px;
   word-spacing: 1px;
@@ -45,22 +43,22 @@ main p {
 }
 
 .left-btn {
-  background-color: var(--left-btn-bg-color);
+  background-color: #fff;
   transition: 0.2s ease-in-out;
   cursor: pointer;
-  color: var(--left-btn-color);
+  color: #000;
 }
 
 .right-btn {
   color: #fff;
-  background-color: #000000;
+  background-color: #000;
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 
 .right-btn:hover {
-  color: var(--text-color);
-  background-color: var(--bg-color);
+  color: #000;
+  background-color: #fff;
 }
 
 @media (width < 1100px) {
