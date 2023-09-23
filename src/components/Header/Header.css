@@ -95,23 +95,28 @@ nav {
   .nav-links {
     width: 100%;
     position: fixed;
-    top: 80px;
+    top: 60px;
     display: block;
     text-align: center;
-    right: -1200px;
+    right: 0px;
+    width: 0px;
+    height: 50vh;
+    padding-top: 40px;
     background-color: white;
     box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.5);
-    padding: 2rem 2rem;
-    transition: right 0.3s ease-in-out;
+    margin: 0 0 0 10px;
+    transition: width 0.2s ease-in-out;
   }
 
+  .last-nav-link {
+    margin-left: 0rem;
+  }
+  .nav-link {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
   .mobile {
     display: flex;
-  }
-
-  .nav-link {
-    margin-bottom: 20px;
-    margin-left: 0px !important;
   }
 
   .open,
@@ -123,6 +128,7 @@ nav {
 
   .nav-links.active {
     right: 0;
+    width: 100vw;
   }
 }
 
@@ -134,14 +140,14 @@ nav {
     gap: 0rem;
   }
   .nav-link {
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
   .nav-link a {
     font-size: 16px;
     font-weight: 500;
   }
   .last-nav-link {
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
   .last-nav-link button {
     font-size: 18px;
