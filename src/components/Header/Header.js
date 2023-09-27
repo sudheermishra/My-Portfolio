@@ -46,7 +46,7 @@ function Header() {
               </NavLink>
             </li>
             <li className="nav-link link">
-              <a href="https://drive.google.com/uc?export=download&id=152YjYIEzDm07lIjWJppi2C_70bfRkN7p">
+              <a href="https://drive.google.com/uc?export=download&id=152U_i0nkA4Kh-WN607r6IdmEFaisBq_O">
                 CV
               </a>
             </li>

@@ -10,7 +10,7 @@ function Main() {
         <img src={sudheer} alt="sudheer" />
       </div>
       <div>
-        <h1>Sudheer </h1>
+        <h1>Sudheer Mishra</h1>
         <hr />
         <div>
           <p>

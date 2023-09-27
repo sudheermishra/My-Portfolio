@@ -10,7 +10,7 @@ function Education() {
       {/* #################################### */}
       <div className={`${styles.college} ${styles.seprationLine}`}>
         <div className={styles.clgName}>
-          <p className={styles["education-title"]}> B.Tech (cs)</p>
+          <p className={styles["education-title"]}> BCA</p>
           <p className={styles.current}>
             <span>
               <LiaBuildingSolid className={styles.universitylogo} />
@@ -24,7 +24,7 @@ function Education() {
             <span>
               <SlCalender className={styles.universitylogo} />
             </span>
-            August 2019 - March 2023
+            August 2019 - March 2022
           </p>
         </div>
       </div>
@@ -32,7 +32,7 @@ function Education() {
       {/* ######################################## */}
       <div className={styles.college}>
         <div className={styles.clgName}>
-          <p className={styles["education-title"]}> M.Tech</p>
+          <p className={styles["education-title"]}> MCA</p>
           <p className={styles.current}>
             <span>
               <LiaBuildingSolid className={styles.universitylogo} />
