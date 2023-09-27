@@ -12,7 +12,7 @@ function About() {
           Hello there! I'm Sudheer Mishra, a dedicated aspiring React web
           developer who's deeply passionate about crafting captivating user
           interfaces. My toolkit is packed with React, HTML, CSS, and
-          JavaScript.Tyhe essential ingredients I wield to create immersive
+          JavaScript.The essential ingredients I wield to create immersive
           digital experiences. I thrive in collaborative environments that
           promote innovation and teamwork, always eager to contribute fresh
           perspectives and learn from others. I'm thrilled about the prospect of
