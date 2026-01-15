@@ -14,8 +14,8 @@ function Main() {
         <hr />
         <div>
           <p>
-            Hello, I'm Sudheer Mishra, a passionate Frontend Developer with a
-            specialization in React.
+            I’m an aspiring software developer focused on turning ideas into
+            meaningful digital experiences.
           </p>
         </div>
         <div className={styles.buttons}>
