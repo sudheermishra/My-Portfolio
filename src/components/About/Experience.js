@@ -16,7 +16,7 @@ function Experience() {
             <span>
               <LiaBuildingSolid className={styles.icon1} />
             </span>
-            CyberCuboid
+            Acadewise
           </p>
         </div>
         <div className={styles.workingDateAndYear}>
@@ -25,7 +25,7 @@ function Experience() {
             <span>
               <SlCalender className={styles.icon1} />
             </span>
-            June 2023 - August 2023
+            February 2025 - March 2025
           </p>
         </div>
       </div>

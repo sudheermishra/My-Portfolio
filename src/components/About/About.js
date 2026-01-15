@@ -9,15 +9,15 @@ function About() {
       <hr />
       <div className={styles["about-text"]}>
         <p>
-          Hello there! I'm Sudheer Mishra, a dedicated aspiring React web
-          developer who's deeply passionate about crafting captivating user
-          interfaces. My toolkit is packed with React, HTML, CSS, and
-          JavaScript.The essential ingredients I wield to create immersive
-          digital experiences. I thrive in collaborative environments that
-          promote innovation and teamwork, always eager to contribute fresh
-          perspectives and learn from others. I'm thrilled about the prospect of
-          joining forces and making my mark in the world of cutting-edge web
-          solutions.
+          Hello! I’m Sudheer Mishra, a software developer with hands-on
+          experience in building web applications using the MERN stack. My
+          toolkit includes MongoDB, Express.js, React, and Node.js, along with
+          HTML, CSS, and JavaScript. I’ve worked on projects like a personal
+          portfolio, a Student Report Advisor system, and a shopping cart
+          application, where I focused on responsive UI, state management, and
+          real-world functionality. I’m interested in building scalable,
+          user-focused applications and continuously improving my skills through
+          practical development and collaboration.
         </p>
       </div>
       <Experience />
