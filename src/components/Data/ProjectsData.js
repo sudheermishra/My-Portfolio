@@ -2,6 +2,7 @@ import Textutils from "../../assets/ProjectsImage/Textutils.png";
 import Todolist from "../../assets/ProjectsImage/Todolist.png";
 import joke from "../../assets/ProjectsImage/Joke.png";
 import Portfolio from "../../assets/ProjectsImage/portfolio.png";
+import moviesearch from "../../assets/ProjectsImage/moviesearch.png";
 
 export const projectsData = [
   {
@@ -53,5 +54,18 @@ export const projectsData = [
     img: Portfolio,
     github: "https://github.com/sudheermishra/My-Portfolio",
     liveLink: "https://sudheermishra.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Movie Search App",
+    projectInfo:
+      "This Movie Search application is built using React and focuses on working with third-party APIs. Users can search movies by name, and the app fetches data using Axios. JavaScript-based error handling is implemented to manage API errors and invalid searches. The interface is styled using CSS for a smooth and responsive user experience.",
+    techStack1: " HTML",
+    techStack2: "CSS",
+    techStack3: "JavaScript",
+    techStack4: "React",
+    img: moviesearch,
+    github: "https://github.com/sudheermishra/Movie-Search",
+    liveLink: "https://movienamesearch.netlify.app/",
   },
 ];
