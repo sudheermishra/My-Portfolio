@@ -9,6 +9,7 @@ function ProjectCard({
   techStack2,
   techStack3,
   techStack4,
+  techStack5,
   img,
   github,
   liveLink,
@@ -31,12 +32,13 @@ function ProjectCard({
               <span>{techStack2}</span>
               <span>{techStack3}</span>
               <span>{techStack4}</span>
+              <span>{techStack5}</span>
             </div>
             <div className={styles["card-links"]}>
-              <a href={github} target='blank'>
+              <a href={github} target="blank">
                 <AiFillGithub className={styles.github} />
               </a>
-              <a href={liveLink} target='blank'>
+              <a href={liveLink} target="blank">
                 <AiOutlineLink className={styles.link} />
               </a>
             </div>
