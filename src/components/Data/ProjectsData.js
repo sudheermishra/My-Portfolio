@@ -2,8 +2,26 @@ import Portfolio from "../../assets/ProjectsImage/portfolio.png";
 import moviesearch from "../../assets/ProjectsImage/moviesearch.png";
 import shoppingcart from "../../assets/ProjectsImage/Cart.png";
 import TaskVault from "../../assets/ProjectsImage/taskvault.png";
+import coursera from "../../assets/ProjectsImage/coursera.png";
 
 export const projectsData = [
+  {
+    id: 0,
+
+    title: "Coursera - Online Course Platform",
+    projectInfo:
+      "A full-stack online course platform with secure authentication and Stripe payment integration. Users can sign up, purchase courses, and access protected video modules. Implemented React Router loaders and actions, token-based authentication with access and refresh tokens, and automatic session management using Supabase.",
+
+    techStack1: "HTML",
+    techStack2: "CSS",
+    techStack3: "JavaScript",
+    techStack4: "React + Vite",
+    techStack5: "Supabase + Stripe",
+
+    img: coursera,
+    github: "https://github.com/sudheermishra/coursera",
+    liveLink: "https://courseratechs.netlify.app/",
+  },
   {
     id: 1,
 
