@@ -8,7 +8,7 @@ export const projectsData = [
   {
     id: 0,
 
-    title: "Coursera - Online Course Platform",
+    title: "LearnStackHub - Online Course Platform",
     projectInfo:
       "A full-stack online course platform with secure authentication and Stripe payment integration. Users can sign up, purchase courses, and access protected video modules. Implemented React Router loaders and actions, token-based authentication with access and refresh tokens, and automatic session management using Supabase.",
 
@@ -20,7 +20,7 @@ export const projectsData = [
 
     img: coursera,
     github: "https://github.com/sudheermishra/coursera",
-    liveLink: "https://courseratechs.netlify.app/",
+    liveLink: "https://learnstackhub.netlify.app/",
   },
   {
     id: 1,
