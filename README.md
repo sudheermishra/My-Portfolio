@@ -8,7 +8,7 @@ A personal portfolio website built with React.js showcasing my projects, skills,
 
 ## 📸 Preview
 
-![Portfolio Preview](./src/assets/sudheer.jpg)
+![Portfolio Preview](./src/assets/ProjectsImage/portfolio.png)
 
 ---
 
