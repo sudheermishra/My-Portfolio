@@ -1,40 +1,83 @@
-# Getting Started with Create React App
+# 🚀 Sudheer Mishra — Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal portfolio website built with React.js showcasing my projects, skills, and experience as a frontend developer.
 
-## Available Scripts
+🌐 **Live Site:** [sudheermishra.netlify.app](https://sudheermishra.netlify.app)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Portfolio Preview](./src/assets/sudheer.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Sections
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Header / Nav** — Smooth navigation with links to all sections
+- **About Me** — Introduction, background, and what I'm looking for
+- **Tech Stack** — Technologies and tools I work with
+- **Projects** — Showcase of my best work with live demo links
+- **Contact** — Get in touch with me
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React.js** — Component-based UI
+- **JavaScript (ES6+)** — Core logic
+- **HTML5 & CSS3** — Structure and styling
+- **Netlify** — Deployment and hosting
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📁 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+My-Portfolio/
+├── public/
+└── src/
+    ├── assets/          # Images and static files
+    ├── components/
+    │   ├── About/       # About me section
+    │   ├── Contact/     # Contact section
+    │   ├── Data/        # Project and skills data
+    │   ├── Footer/      # Footer component
+    │   ├── Header/      # Navigation header
+    │   ├── Main/        # Hero/main section
+    │   ├── Projects/    # Projects showcase
+    │   └── Techstack/   # Tech stack display
+    └── App.js
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Run Locally
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone the repository
+git clone https://github.com/sudheermishra/My-Portfolio.git
+
+# Navigate into the folder
+cd My-Portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📬 Contact
+
+- **Email:** sudheermishra8587@gmail.com
+- **LinkedIn:** [linkedin.com/in/sudheermishra](https://linkedin.com/in/sudheermishra)
+- **GitHub:** [github.com/sudheermishra](https://github.com/sudheermishra)
+
+---
+
+⭐ If you like this portfolio, feel free to give it a star!
