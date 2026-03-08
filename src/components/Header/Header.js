@@ -53,6 +53,11 @@ function Header() {
                 CV
               </a>
             </li>
+            <li className="nav-link link">
+              <NavLink to="/terminal" onClick={handleNavigationClick}>
+                ASK ME
+              </NavLink>
+            </li>
             <li className="nav-link last-nav-link">
               <NavLink to="/contact" onClick={handleNavigationClick}>
                 <button>CONTACT</button>
