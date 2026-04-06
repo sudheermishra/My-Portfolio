@@ -1,0 +1,27 @@
+@mixin rolling-text {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+
+  .text-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    transition: transform 0.45s cubic-bezier(0.76, 0, 0.24, 1);
+    
+    span {
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    .second-text {
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  }
+
+  &:hover .text-wrapper {
+    transform: translateY(-100%);
+  }
+}

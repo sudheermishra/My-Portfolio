@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Main.module.css";
+import styles from "./Main.module.scss";
 import sudheer from "../../assets/sudheer.jpg";
 import { NavLink } from "react-router-dom";
 
@@ -20,7 +20,7 @@ function Main() {
         </div>
         <div className={styles.buttons}>
           <NavLink to="/projects" className="left">
-            <button className={styles["left-btn"]}>Projects </button>
+            <button className={styles["left-btn"]}>Projects</button>
           </NavLink>
           <NavLink className="right" to="/contact">
             <button className={styles["right-btn"]}>Contact</button>

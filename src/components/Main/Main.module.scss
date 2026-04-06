@@ -1,0 +1,141 @@
+@use "../../styles/variables" as v;
+
+main {
+  text-align: center;
+  max-width: 800px;
+  margin: 140px auto;
+  padding: 0 20px;
+}
+
+.image {
+  padding-bottom: 30px;
+  
+  img {
+    width: 250px;
+    border-radius: 24px;
+    object-position: center;
+    filter: grayscale(100%) contrast(110%);
+    transition: all 0.5s v.$animation-ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+
+    &:hover {
+      filter: grayscale(0%) contrast(100%);
+      transform: scale(1.05) rotate(2deg);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+  }
+}
+
+main h1 {
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  color: v.$primary-color;
+}
+
+main hr {
+  width: 60px;
+  height: 4px;
+  background: v.$primary-color;
+  border: none;
+  margin: 2rem auto;
+}
+
+main p {
+  margin: 2rem auto 4rem auto;
+  font-size: 24px;
+  line-height: 1.6;
+  color: #444;
+  font-weight: 300;
+  max-width: 600px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.left-btn, .right-btn {
+  padding: 1rem 3.5rem;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.4s v.$animation-ease;
+  border: 2px solid v.$primary-color;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: v.$primary-color;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s v.$animation-ease;
+    z-index: -1;
+  }
+
+  &:hover {
+    color: white;
+    &::before {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
+}
+
+.left-btn {
+  background: transparent;
+  color: v.$primary-color;
+}
+
+.right-btn {
+  background: v.$primary-color;
+  color: white;
+  
+  &:hover {
+    color: v.$primary-color;
+    &::before {
+      background: white;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .left-btn, .right-btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  main h1 {
+    font-size: 38px;
+  }
+  
+  main p {
+    font-size: 18px;
+  }
+  
+  .image img {
+    width: 180px;
+  }
+}
