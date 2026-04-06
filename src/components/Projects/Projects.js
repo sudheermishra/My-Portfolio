@@ -1,4 +1,4 @@
-import styles from "./Projects.module.css";
+import styles from "./Projects.module.scss";
 import ProjectCards from "./ProjectCards";
 function Projects() {
   return (

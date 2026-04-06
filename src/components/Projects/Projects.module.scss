@@ -1,0 +1,65 @@
+@use "../../styles/variables" as v;
+
+.projects {
+  max-width: 1140px;
+  margin: 100px auto 0 auto;
+  min-height: 800px;
+  padding: 0 20px;
+
+  h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+  }
+}
+
+.cards {
+  max-width: 1100px;
+  margin: 80px auto 0 auto;
+  width: 100%;
+  
+  :global(.swiper) {
+    padding: 20px 0 80px 0;
+  }
+
+  :global(.swiper-button-next),
+  :global(.swiper-button-prev) {
+    color: v.$primary-color;
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+
+    &::after {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    &:hover {
+      background: v.$primary-color;
+      color: white;
+      transform: scale(1.1);
+    }
+    
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  :global(.swiper-pagination-bullet) {
+    width: 12px;
+    height: 12px;
+    background: v.$primary-color;
+    opacity: 0.2;
+    transition: all 0.3s ease;
+  }
+
+  :global(.swiper-pagination-bullet-active) {
+    opacity: 1;
+    width: 30px;
+    border-radius: 6px;
+    background: v.$primary-color;
+  }
+}

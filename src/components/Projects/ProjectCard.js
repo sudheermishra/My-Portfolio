@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./ProjectCard.module.css";
+import styles from "./ProjectCard.module.scss";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineLink } from "react-icons/ai";
 function ProjectCard({

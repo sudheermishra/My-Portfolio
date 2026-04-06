@@ -1,0 +1,20 @@
+@use "../../../styles/mixins" as m;
+@use "../../../styles/variables" as v;
+
+.flipContainer {
+  @include m.rolling-text;
+  cursor: pointer;
+  
+  .text-wrapper {
+    span {
+      font-family: v.$font-family;
+      transition: color 0.3s ease;
+    }
+  }
+
+  &:hover {
+    .text-wrapper span {
+      color: v.$accent-color;
+    }
+  }
+}

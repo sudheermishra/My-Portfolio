@@ -151,6 +151,7 @@
     height: 90px;
   }
 }
+
 @media (max-width: 360px) {
   .tech-stack {
     gap: 1.5rem;
