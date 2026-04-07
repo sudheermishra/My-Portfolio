@@ -1,80 +1,152 @@
 .education {
+  max-width: 900px;
+  width: 95%;
+  margin: 150px auto 150px auto;
+  padding: 20px;
+}
+
+.sectionTitle {
+  font-size: 3rem;
+  font-weight: 700;
   text-align: center;
-  max-width: 1140px;
-  margin: 200px auto;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
 }
 
-.education h2 {
-  font-size: 36px;
-  font-weight: 400;
+.divider {
+  max-width: 100px;
+  height: 4px;
+  background: #000;
+  border: none;
+  margin: 0 auto 60px auto;
+  border-radius: 2px;
 }
 
-.college {
+.timeline {
+  position: relative;
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  padding-left: 40px;
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.timelineDot {
+  position: absolute;
+  left: -51px;
+  top: 25px;
+  width: 20px;
+  height: 20px;
+  background: #000;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.timelineItem:hover .timelineDot {
+  transform: scale(1.2);
+  background: #333;
+}
+
+.educationCard {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.educationCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.cardHeader {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 15px auto;
-}
-
-body > .education > div:first-child {
-  background-color: yellow;
-}
-
-.clgName {
-  margin: 1.5rem 0;
-  text-align: left;
-}
-
-.education-title,
-.yearCompleted {
+  align-items: flex-start;
   margin-bottom: 20px;
-  font-weight: 400;
-  font-size: 20px;
 }
 
-.clgDetails {
-  text-align: right;
+.degreeTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
 }
 
-.education span {
-  margin-right: 10px;
-  font-size: 18px;
-  margin-top: 20px;
-  position: relative;
-  top: 2px;
+.status {
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 4px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
 }
 
-.seprationLine {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.479);
-  padding-bottom: 15px;
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-@media (width < 540px) {
-  .education h2 {
-    font-size: 30px;
+.institutionInfo,
+.dateInfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.icon {
+  font-size: 1.4rem;
+  color: #000;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .education {
+    margin: 100px auto 100px auto;
+    padding: 10px;
   }
 
-  .education-title,
-  .yearCompleted {
-    margin-bottom: 20px;
-    font-weight: 400;
-    font-size: 16px;
+  .sectionTitle {
+    font-size: 2.2rem;
   }
 
-  .current,
-  .year {
-    font-size: 12px;
+  .timeline {
+    margin-left: 5px;
+    padding-left: 25px;
   }
-}
 
-@media (width < 660px) {
-  .college {
+  .timelineDot {
+    left: -36px;
+    width: 16px;
+    height: 16px;
+    top: 27px;
+  }
+
+  .educationCard {
+    padding: 20px;
+    text-align: left;
+  }
+
+  .cardHeader {
     flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
   }
-  .clgName {
-    text-align: center;
-  }
-  .clgDetails {
-    text-align: center;
+
+  .degreeTitle {
+    font-size: 1.25rem;
   }
 }

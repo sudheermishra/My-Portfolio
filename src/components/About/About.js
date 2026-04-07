@@ -9,15 +9,17 @@ function About() {
       <hr />
       <div className={styles["about-text"]}>
         <p>
-          Hello! I’m Sudheer Mishra, a software developer with hands-on
-          experience in building web applications using the MERN stack. My
-          toolkit includes MongoDB, Express.js, React, and Node.js, along with
-          HTML, CSS, and JavaScript. I’ve worked on projects like a personal
-          portfolio, a Student Report Advisor system, and a shopping cart
-          application, where I focused on responsive UI, state management, and
-          real-world functionality. I’m interested in building scalable,
-          user-focused applications and continuously improving my skills through
-          practical development and collaboration.
+          Hello! I’m Sudheer Mishra, a software developer dedicated to building
+          high-performance web applications using the MERN stack. My technical
+          arsenal includes MongoDB, Express.js, React, and Node.js, with a
+          strong focus on modern frontend frameworks and AI integration. I
+          recently launched an <strong>AI-Powered PDF Summarizer</strong> that
+          leverages Groq LLM (Llama-3.3) for intelligent content extraction,
+          complementing my work on <strong>AI Product Image Generation</strong>
+          and secure <strong>OAuth platforms</strong>. I am passionate about
+          engineering scalable, user-focused solutions and continuously push the
+          boundaries of web development through innovative projects and
+          collaborative problem-solving.
         </p>
       </div>
       <Experience />
