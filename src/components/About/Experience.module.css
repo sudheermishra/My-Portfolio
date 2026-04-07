@@ -1,77 +1,156 @@
 .workExperience {
-  text-align: center;
-  max-width: 1140px;
+  max-width: 900px;
   width: 95%;
-  margin: 200px auto 0 auto;
+  margin: 150px auto 0 auto;
+  padding: 20px;
 }
 
-.workExperience h2 {
-  font-size: 36px;
-  font-weight: 400;
+.sectionTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
 }
 
-.experience {
+.divider {
+  max-width: 100px;
+  height: 4px;
+  background: #000;
+  border: none;
+  margin: 0 auto 60px auto;
+  border-radius: 2px;
+}
+
+.timeline {
+  position: relative;
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  padding-left: 40px;
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.timelineDot {
+  position: absolute;
+  left: -51px;
+  top: 25px;
+  width: 20px;
+  height: 20px;
+  background: #000;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.timelineItem:hover .timelineDot {
+  transform: scale(1.2);
+  background: #333;
+}
+
+.experienceCard {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.experienceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.cardHeader {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-top: 40px;
-}
-
-.experience-title,
-.internship {
+  align-items: flex-start;
   margin-bottom: 20px;
-  font-size: 20px;
 }
 
-.companyDetail {
-  text-align: left;
+.jobTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
 }
 
-.workingDateAndYear {
-  text-align: right;
+.jobType {
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 4px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
 }
 
-.workExperience span {
-  position: relative;
-  top: 2px;
-  font-size: 18px;
-  margin-right: 10px;
+.cardBody {
+  display: flex;
+  gap: 30px;
 }
 
-@media (width < 540px) {
-  .experience h2 {
-    font-size: 30px;
+.companyInfo,
+.dateInfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.icon {
+  font-size: 1.4rem;
+  color: #000;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .workExperience {
+    margin: 100px auto 0 auto;
+    padding: 10px;
   }
 
-  .experience-title,
-  .internship {
-    margin-bottom: 40px;
-    font-size: 16px;
+  .sectionTitle {
+    font-size: 2.2rem;
   }
 
-  .current,
-  .year {
-    font-size: 12px;
+  .timeline {
+    margin-left: 5px;
+    padding-left: 25px;
   }
 
-  .workExperience span {
-    position: relative;
-    top: 2px;
-    font-size: 16px;
-    margin-right: 10px;
+  .timelineDot {
+    left: -36px;
+    width: 16px;
+    height: 16px;
+    top: 27px;
   }
-}
 
-@media (width < 660px) {
-  .experience {
+  .experienceCard {
+    padding: 20px;
+    text-align: left;
+  }
+
+  .cardHeader {
     flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
   }
-  .internship {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
+  .jobTitle {
+    font-size: 1.25rem;
   }
-  .current {
-    text-align: center;
+
+  .cardBody {
+    flex-direction: column;
+    gap: 12px;
   }
 }

@@ -5,7 +5,7 @@ const responses = {
   skills:
     "⚡ Skills: React.js, Redux Toolkit, React Router, JavaScript ES6+, TypeScript, Tailwind CSS, Node.js, Express.js, MongoDB, Git, Axios, Stripe, Vercel, Netlify.",
   projects:
-    "📦 Projects:\n→ LearnStackHub — Course platform with Stripe & JWT\n→ Redux Cart App — Redux Toolkit state management\n→ TaskVault — MERN stack task manager\n→ Movie Search — React + OMDb API",
+    "📦 Projects:\n→ AI PDF Summarizer — LLM content analysis\n→ AI Image Gen — Generative AI product media\n→ LearnStackHub — Course platform with Stripe & JWT\n→ LinkAuth Portal — LinkedIn OAuth 2.0 integration",
   contact:
     "📬 Contact:\n→ Email: sudheermishra8587@gmail.com\n→ LinkedIn: linkedin.com/in/sudheer-mishra-b7302a258\n→ GitHub: github.com/sudheermishra",
   available:
@@ -15,7 +15,7 @@ const responses = {
   education:
     "🎓 Education:\n→ MCA — Bikaner Technical University (2023–2025)\n→ BCA — Shekhawati University (2019–2022)",
   about:
-    "👤 Sudheer Mishra — Frontend Developer from Sikar, India. Self-taught React developer with deployed projects featuring Stripe payments, JWT auth, and Redux state management.",
+    "👤 Sudheer Mishra — Frontend Developer from Sikar, India. Skilled in the MERN stack with a strong focus on AI integration, having built deployed platforms using Llama-3.3 LLMs, secure JWT/OAuth, and Stripe payments.",
   help: `💡 Available commands:
   → skills      Tech skills & stack
   → projects    Projects I've built
