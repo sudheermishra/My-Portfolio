@@ -5,10 +5,26 @@ import TaskVault from "../../assets/ProjectsImage/taskvault.png";
 import coursera from "../../assets/ProjectsImage/coursera.png";
 import llm from "../../assets/ProjectsImage/llm.png";
 import authlinkdln from "../../assets/ProjectsImage/linkdlnoauth.png";
+import PDFSummarizer from "../../assets/ProjectsImage/PDFSummarizer.png";
 
 export const projectsData = [
   {
     id: 0,
+    title: "AI-Powered PDF Summarizer",
+    projectInfo:
+      "A full-stack PDF summarization platform built with React.js + Vite and Node.js + Express. It integrates Groq LLM (Llama-3.3-70B) to extract and analyze PDF content, generating concise and accurate summaries along with document insights like word count, character count, and reading time.",
+    techStack1: "React.js + Vite",
+    techStack2: "Node.js + Express",
+    techStack3: "Groq LLM API",
+    techStack4: "PDF Processing",
+    techStack5: "Vanilla CSS",
+    img: PDFSummarizer,
+    github: "https://github.com/sudheermishra/PDF-Summarizer",
+    liveLink: "https://pdf-summarizer-omega-two.vercel.app/",
+  },
+
+  {
+    id: 1,
     title: "AI Product Image Gen",
     projectInfo:
       "A full-stack AI platform built with React and Node.js. It integrates providers like Leonardo and Gemini to generate high-quality product images and videos from simple URLs using intelligent prompt engineering.",
@@ -22,7 +38,7 @@ export const projectsData = [
     liveLink: "https://product-image-gen.netlify.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "LearnStackHub",
     projectInfo:
       "A comprehensive online course platform featuring secure JWT authentication and Stripe payment integration. Lessons are delivered via an interactive video player with a focus on seamless student experience.",
@@ -36,7 +52,7 @@ export const projectsData = [
     liveLink: "https://learnstackhub.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "LinkAuth Portal",
     projectInfo:
       "A high-performance OAuth 2.0 platform for LinkedIn integration. Built with Next.js 16 and React 19, it implements complete authorization flows and secure session management using Redux Toolkit.",
@@ -50,7 +66,7 @@ export const projectsData = [
     liveLink: "https://link-auth-portal-frontend.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Redux-Toolkit-Cart",
     projectInfo:
       "An e-commerce demonstration showcasing advanced global state management using Redux Toolkit. This application focuses on fast, reliable cart operations and a smooth, responsive shopping experience.",
@@ -64,7 +80,7 @@ export const projectsData = [
     liveLink: "https://vite-redux-cartapp.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "TaskVault Secure MERN",
     projectInfo:
       "A secure MERN-based task management tool with JWT authentication and full CRUD capabilities. It provides a robust interface for users to safely manage and organize tasks with MongoDB persistence.",
@@ -77,7 +93,7 @@ export const projectsData = [
     github: "https://github.com/sudheermishra/taskvault",
   },
   {
-    id: 5,
+    id: 6,
     title: "Movie Search App",
     projectInfo:
       "An interactive movie discovery application that utilizes third-party API integration and Axios for real-time data fetching. It features robust error handling and a sleek, responsive search interface.",
@@ -91,7 +107,7 @@ export const projectsData = [
     liveLink: "https://movienamesearch.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "My Portfolio",
     projectInfo:
       "A modern, high-fidelity portfolio designed with React and performance in mind. This showcase highlights clean code, sleek animations, and responsive UI principles to provide a premium user experience.",
