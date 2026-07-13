@@ -56,8 +56,6 @@ function Header() {
               </a>
             </li>
 
-
->
             <li className="nav-link link">
               <NavLink to="/terminal" onClick={handleNavigationClick}>
                 ASK ME
