@@ -45,15 +45,13 @@ function Header() {
                 PROJECTS
               </NavLink>
             </li>
-            <li className="nav-link link">
-              <a
-                // href="https://drive.google.com/uc?export=download&id=1bD2R3Wbn-QySQl3UpYdqZUNqp3XIzVmS"
-                href="https://drive.google.com/uc?export=download&id=1cCxKlOwP3QYBzs8K13tfiUOxb7TqPrH3"
-                target="_blank"
-                rel="noopener noreferrer">
-                CV
-              </a>
-            </li>
+         <li className="nav-link link">
+    href="https://drive.google.com/uc?export=download&id=1hWdWzQZNLM9ga9n5FB65l2h56Q2j8Wzd"
+    target="_blank"
+    rel="noopener noreferrer">
+    CV
+  </a>
+</li>
             <li className="nav-link link">
               <NavLink to="/terminal" onClick={handleNavigationClick}>
                 ASK ME
