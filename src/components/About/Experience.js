@@ -5,9 +5,9 @@ import { LiaBuildingSolid } from "react-icons/lia";
 const experienceData = [
   {
     title: "Web Developer Internship",
-    company: "Rawyal",
+    company: "Kirat Creations",
     type: "Internship",
-    duration: "March 2025 - Present",
+    duration: "January 2026 - June 2026",
   },
   {
     title: "Web Development Internship",
