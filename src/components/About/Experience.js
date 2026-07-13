@@ -7,7 +7,7 @@ const experienceData = [
     title: "Web Developer Internship",
     company: "Kirat Creations",
     type: "Internship",
-    duration: "March 2026 - May 2026",
+    duration: "January 2026 - June 2026",
   },
   {
     title: "Web Development Internship",
