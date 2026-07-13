@@ -8,27 +8,20 @@ function About() {
       <h2>About Me</h2>
       <hr />
       <div className={styles["about-text"]}>
-     <p>
-  Hi, I'm <strong>Sudheer Mishra</strong> — a <strong>Full-Stack Web Developer</strong> based in Jaipur,
-  India. I hold an MCA (Master of Computer Applications) and spent my
-  internship at <strong>Kirat Creations</strong> building real, production features for a
-  PDF tools platform — not just learning in isolation, but shipping code
-  that real users interacted with. I owned the backend for an AI-powered
-  PDF summarizer and contributed to a document-editing pipeline, which
-  taught me a lot about handling edge cases: bad input, failed requests,
-  and the messy realities that tutorials don't prepare you for. Outside
-  of work, I build things to learn. <strong>LearnStackHub</strong> started as a way to
-  properly understand authentication — protected routes, token refresh,
-  session persistence — by building a course platform with real Stripe
-  payments instead of a toy example. <strong>LinkAuth Portal</strong> came from wanting
-  to understand OAuth from the inside, not just drop in a library and
-  move on. My core stack is <strong>React.js</strong> and <strong>JavaScript</strong>, with <strong>Node.js</strong>,
-  <strong>Express</strong>, and <strong>MongoDB</strong> on the backend. What I care about most is
-  building things properly: thinking through what happens when a file is
-  too large, a token expires, or a network call fails — not just the
-  happy path. I'm currently looking for <strong>full-time junior/associate
-  developer</strong> roles where I can keep building software that ships and
-  holds up in the real world.
+<p>
+  Full-stack developer with an MCA, focused on building real,
+  production-ready web applications. During my internship at{" "}
+  <strong>Kirat Creations</strong>, I worked on a PDF tools platform —
+  owning the backend for an AI-powered <strong>PDF Summarizer</strong>{" "}
+  (Express, Groq's LLaMA API) and contributing to a PDF text-editing tool
+  built on a PDF → DOCX → PDF conversion pipeline using{" "}
+  <strong>LibreOffice</strong> and <strong>JSZip</strong>. On my own, I've
+  built <strong>LearnStackHub</strong>, a course-selling platform with
+  auth, session refresh, protected routes, and Stripe checkout, and{" "}
+  <strong>LinkAuth Portal</strong>, a LinkedIn OAuth 2.0 login system with
+  secure backend token exchange and Redux Toolkit session management.
+  Currently looking for <strong>full-time junior/associate developer</strong> roles
+  where I can keep building things that actually ship.
 </p>
       </div>
       <Experience />
