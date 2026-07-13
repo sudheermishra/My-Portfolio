@@ -23,8 +23,7 @@ function About() {
   payments instead of a toy example. <strong>LinkAuth Portal</strong> came from wanting
   to understand OAuth from the inside, not just drop in a library and
   move on. My core stack is <strong>React.js</strong> and <strong>JavaScript</strong>, with <strong>Node.js</strong>,
-  <strong>Express</strong>, and <strong>MongoDB</strong> on the backend — and I'm currently deepening my
-  skills in <strong>TypeScript</strong> and <strong>PostgreSQL</strong>. What I care about most is
+  <strong>Express</strong>, and <strong>MongoDB</strong> on the backend. What I care about most is
   building things properly: thinking through what happens when a file is
   too large, a token expires, or a network call fails — not just the
   happy path. I'm currently looking for <strong>full-time junior/associate
